@@ -7,9 +7,31 @@ body {
 /*styles for .nav */
 
 .nav {
-	padding: 30px,0;
+	padding: 30px;
 	border-bottom: 2px solid #95a5a6;
 	text-align: center;
+}
+.nav__link {
+	font-size: 20px;
+	font-weight: 600;
+	color: #16a085;
+	padding: 0 20px;
+	border-right: 1px solid #95a5a6;
+	display: inline-block;
+	line-height: 15px;
+}
+.nav__link--last {
+	border-right: none;
+}
+.nav__link--active {
+	color: white;
+	text-decoration: none;
+	font-weight: 800;
+	pointer-events: none;
+}
+.nav--bottomborder {
+	border-bottom: none;
+	border-top: 2px solid #95a5a6;
 }
 
 /* styles for .name */
