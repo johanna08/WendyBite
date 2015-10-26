@@ -4,3 +4,25 @@ body {
 	margin: 25px;
 	padding: 50px, 40px, 50px, 40px;
 }
+/*styles for .nav */
+
+.nav {
+	padding: 30px,0;
+	border-bottom: 2px solid #95a5a6;
+	text-align: center;
+}
+
+/* styles for .name */
+
+.name {
+	padding-top: 25px;
+
+}
+.name__title {
+	color: white;
+	font-style: italic;
+	font-size: 55px;
+	text-align: center;
+	margin: 0;
+
+}
