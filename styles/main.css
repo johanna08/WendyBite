@@ -94,8 +94,14 @@ body {
 	font-size: 12px;
 	color: #7f8c8d;
 }
-
-
+li {
+	list-style-type: square;
+	margin-left: 80px;
+}
+.final--text {
+	font-family: Times;
+	color: #7f8c8d;
+}
 
 
 
