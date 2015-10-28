@@ -1,0 +1,115 @@
+body {
+	background-color: #34495e;
+	border: 5px solid #7f8c8d;
+	margin: 25px;
+	padding: 50px, 40px, 50px, 40px;
+}
+/*styles for .nav */
+
+.nav {
+	padding: 30px 0px;
+	border-bottom: 2px solid #7f8c8d;
+	text-align: center;
+	margin: 0 60px;
+	font-family: Verdana;
+}
+.nav__link {
+	font-size: 20px;
+	font-weight: 600;
+	color: #16a085;
+	padding: 0 20px;
+	border-right: 1px solid #7f8c8d;
+	display: inline-block;
+	line-height: 15px;
+}
+.nav__link--last {
+	border-right: none;
+}
+.nav__link--active {
+	color: white;
+	text-decoration: none;
+	font-weight: 800;
+	pointer-events: none;
+}
+.nav--bottomborder {
+	border-bottom: none;
+	border-top: 2px solid #7f8c8d;
+}
+
+/* styles for .name */
+
+.name {
+	padding-top: 25px;
+
+}
+.name__title {
+	color: white;
+	font-style: italic;
+	font-size: 55px;
+	text-align: center;
+	margin: 0;
+}
+
+/*styles for .main */
+.main {
+	color: white;
+	font-size: 16px;
+	text-align:left;
+	margin: 0 60px;
+	font-family: Verdana;
+}
+.main__title {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.main--paragraph {
+	font-family: Times;
+	font-size: 16px;
+
+}
+.main--text {
+	font-family: Times;
+	color: #7f8c8d;
+}
+.main__title--list {
+	color: #7f8c8d;
+	font-size: 18px;
+	font-weight: 300px;
+	font-family: Verdana;
+}
+
+.job {
+	font-family: Verdana;
+	font-weight: 800;
+	display: inline-block;
+	text-align: left;
+}
+
+.job__name {
+	font-weight: 100;
+}
+
+.job__name--dates {
+	font-size: 12px;
+	color: #7f8c8d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
