@@ -69,15 +69,21 @@ body {
 .main__title--list {
 	color: #7f8c8d;
 	font-size: 18px;
-	font-weight: 200px;
+	font-weight: 300px;
 }
 
-ul { 
+.job {
+	font-family: Verdana;
+	font-weight: 800;
+	display: inline-block;
 	list-style-type: square;
 }
-.job {
-	margin: 0 60px;
+
+.job__name {
+	font-weight: 100;
+	
 }
+
 
 
 
