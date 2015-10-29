@@ -64,10 +64,15 @@ body {
 	font-weight: 800;
 }
 
-.main--paragraph {
+.main__para {
 	font-family: Times;
 	font-size: 16px;
 
+}
+.main__title--b {
+	font-weight: 800;
+	margin: 0;
+	
 }
 .main--text {
 	font-family: Times;
@@ -79,10 +84,6 @@ body {
 	font-size: 18px;
 	font-weight: 300px;
 	font-family: Verdana;
-}
-.main--bold {
-	font-weight: 800;
-
 }
 
 .job {
@@ -110,7 +111,6 @@ li {
 	font-weight: 600;
 	color: #7f8c8d;
 }
-
 
 
 
